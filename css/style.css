@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    color: white;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: .1rem;
+    letter-spacing: .2rem;
+    line-height: 4rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .shopping-image {
+        order: -9999;
+        margin: 0 auto;
+    }
+}
